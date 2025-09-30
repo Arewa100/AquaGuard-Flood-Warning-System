@@ -23,7 +23,7 @@ Solar-powered flood early warning system for vulnerable communities | Tech Maste
 
 ---
 
-## 🌍 Overview
+##  Overview
 
 AquaGuard is an affordable, solar-powered flood early warning system designed for communities vulnerable to flooding. With climate change increasing flood frequency globally, vulnerable communities—especially in developing regions—lack access to early warning infrastructure. AquaGuard provides is able to critical warning at a fraction of commercial system costs.
 
@@ -49,7 +49,7 @@ AquaGuard is an affordable, solar-powered flood early warning system designed fo
 
 ---
 
-## ✅ The Solution
+##  The Solution
 
 AquaGuard provides:
 
@@ -64,9 +64,9 @@ AquaGuard provides:
 
 ---
 
-## ⚡ Key Features
+##  Key Features
 
-### 🎯 Survival-Focused Design
+###  Survival-Focused Design
 
 - ✅ **No external power required** - Solar panel + battery backup (48+ hours)
 - ✅ **No internet required** - Operates completely independently
@@ -133,26 +133,21 @@ Result: Community has 4-6 hours to evacuate safely
 
 | Component | Quantity | Est. Cost | Purpose |
 |-----------|----------|-----------|---------|
-| ESP32 Development Board | 1 | $8 | Main microcontroller |
-| HC-SR04 Ultrasonic Sensor | 1 | $2 | Water level detection |
-| Turbidity Sensor (Analog) | 1 | $5 | Water quality testing |
-| DHT22 Temperature/Humidity | 1 | $3 | Environmental monitoring |
-| 0.96" OLED Display (I2C) | 1 | $4 | Data display |
-| 6V 2W Solar Panel | 1 | $6 | Power generation |
-| TP4056 Charging Module | 1 | $1 | Battery management |
-| 18650 Li-ion Battery | 2 | $6 | Energy storage |
-| RGB LED (Common Cathode) | 1 | $0.50 | Visual alerts |
-| Piezo Buzzer (Active) | 1 | $1 | Audio alerts |
-| Waterproof Enclosure | 1 | $8 | Housing |
-| PVC Pipe (Stilling Well) | 1 | $2 | Wave dampening |
-| Mounting Hardware | 1 | $5 | Installation |
-| Misc (wires, resistors, etc) | - | $8 | Connections |
+| ESP32 Development Board | 1 | Main microcontroller |
+| HC-SR04 Ultrasonic Sensor | 1 | Water level detection |
+| Turbidity Sensor (Analog) | 1 | Water quality testing |
+| DHT22 Temperature/Humidity | 1 | Environmental monitoring |
+| 0.96" OLED Display (I2C) | 1 | Data display |
+| 6V 2W Solar Panel | 1 | Power generation |
+| TP4056 Charging Module | 1 | Battery management |
+| 18650 Li-ion Battery | 2 | Energy storage |
+| RGB LED (Common Cathode) | 1 | Visual alerts |
+| Piezo Buzzer (Active) | 1 | Audio alerts |
+| Waterproof Enclosure | 1 | Housing |
+| PVC Pipe (Stilling Well) | 1 | Wave dampening |
+| Mounting Hardware | 1 | Installation |
+| Misc (wires, resistors, etc) | - | Connections |
 
-**Total: ~$80 USD**
-
-> 📝 **See [PARTS_LIST.md](docs/PARTS_LIST.md) for detailed specifications and supplier links**
-
----
 
 ## 💻 Software Setup
 
@@ -175,7 +170,7 @@ Install via Arduino Library Manager:
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/yourusername/AquaGuard-Flood-Warning-System.git
+   git clone https://github.com/Arewa100/AquaGuard-Flood-Warning-System.git
    cd AquaGuard-Flood-Warning-System
    ```
 
@@ -199,9 +194,6 @@ Install via Arduino Library Manager:
    - Set baud rate to 115200
    - Verify sensor readings appear
 
-> 📝 **See [BUILD_GUIDE.md](docs/BUILD_GUIDE.md) for complete step-by-step instructions**
-
----
 
 ## 🏗️ Installation
 
@@ -221,17 +213,6 @@ Install via Arduino Library Manager:
 - Mount on pier or coastal structure
 - Account for tides in threshold settings
 - Use corrosion-resistant mounting hardware
-
-> 📝 **See [DEPLOYMENT.md](docs/DEPLOYMENT.md) for detailed installation instructions**
-
----
-
-## 🎬 Demo Video
-
-[![AquaGuard Demo Video](images/video_thumbnail.jpg)](https://youtube.com/your-video-link)
-
-**Watch the full demonstration:** [YouTube Link](https://youtube.com/your-video-link)
-
 ---
 
 ## 📊 Testing Results
@@ -260,9 +241,6 @@ Install via Arduino Library Manager:
 - ✅ Stilling well reduces wave interference by 80%
 - ✅ Stable readings in moderate turbulence
 - ✅ Alert accuracy: 98% in field conditions
-
-> 📝 **See [data/test_results.csv](data/test_results.csv) for complete test data**
-
 ---
 
 ## 🌟 Real-World Impact
@@ -303,28 +281,11 @@ Contributions welcome! This project is open-source to help vulnerable communitie
 - 💻 Code optimization
 - 📚 Documentation expansion
 - 🧪 Field testing data
-- 🎨 UI/UX enhancements
-
 ---
 
 ## 📜 License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
-
-**Summary:** Free to use, modify, and distribute with attribution.
-
----
-
-## 👤 Contact
-
-**Project Creator:** [Your Name]
-
-- 📧 Email: your.email@example.com
-- 🐦 Twitter: @yourhandle
-- 💼 LinkedIn: linkedin.com/in/yourprofile
-- 🌐 Portfolio: yourwebsite.com
-
-**Project Link:** https://github.com/yourusername/AquaGuard-Flood-Warning-System
 
 ---
 
@@ -337,35 +298,10 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ---
 
-## 📈 Project Status
 
-**Current Version:** v1.0.0 (October 2025)
-
-**Status:** ✅ Prototype Complete - Ready for Field Testing
-
-**Roadmap:**
-- [ ] Field deployment pilot (Q4 2025)
-- [ ] Community feedback integration (Q1 2026)
-- [ ] Multi-device network capability (Q2 2026)
-- [ ] Mobile app development (Q3 2026)
-
----
-
-## 📸 Gallery
-
-![Device Overview](images/product/overview.jpg)
-![Testing in Water](images/testing/waterproof_test.jpg)
-![Field Deployment](images/testing/field_deployment.jpg)
-![Circuit Assembly](images/assembly/circuit.jpg)
-
----
 
 ## ⭐ Star This Project
 
 If you find AquaGuard useful, please star this repository to help others discover it!
-
----
-
-**Built with ❤️ for vulnerable communities worldwide**
 
 **#FloodWarning #DisasterPreparedness #OpenSource #Arduino #IoT #ClimateAction**

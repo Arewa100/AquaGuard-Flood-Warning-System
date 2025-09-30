@@ -131,7 +131,7 @@ Result: Community has 4-6 hours to evacuate safely
 
 ### Core Components
 
-| Component | Quantity |
+| Component | Quantity | ||
 |-----------|----------|-----------|---------|
 | ESP32 Development Board | 1 | Main microcontroller |
 | HC-SR04 Ultrasonic Sensor | 1 | Water level detection |

@@ -133,20 +133,20 @@ Result: Community has 4-6 hours to evacuate safely
 
 | Component | Quantity |
 |-----------|----------|-----------|---------|
-| ESP32 Development Board | 1 | Main microcontroller 
-| HC-SR04 Ultrasonic Sensor | 1 | Water level detection 
-| Turbidity Sensor (Analog) | 1 | Water quality testing 
-| DHT22 Temperature/Humidity | 1 | Environmental monitoring 
-| 0.96" OLED Display (I2C) | 1 | Data display 
-| 6V 2W Solar Panel | 1 | Power generation 
-| TP4056 Charging Module | 1 | Battery management 
-| 18650 Li-ion Battery | 2 | Energy storage 
-| RGB LED (Common Cathode) | 1 | Visual alerts 
-| Piezo Buzzer (Active) | 1 | Audio alerts 
-| Waterproof Enclosure | 1 | Housing 
-| PVC Pipe (Stilling Well) | 1 | Wave dampening 
+| ESP32 Development Board | 1 | Main microcontroller |
+| HC-SR04 Ultrasonic Sensor | 1 | Water level detection |
+| Turbidity Sensor (Analog) | 1 | Water quality testing |
+| DHT22 Temperature/Humidity | 1 | Environmental monitoring |
+| 0.96" OLED Display (I2C) | 1 | Data display |
+| 6V 2W Solar Panel | 1 | Power generation |
+| TP4056 Charging Module | 1 | Battery management |
+| 18650 Li-ion Battery | 2 | Energy storage |
+| RGB LED (Common Cathode) | 1 | Visual alerts |
+| Piezo Buzzer (Active) | 1 | Audio alerts |
+| Waterproof Enclosure | 1 | Housing |
+| PVC Pipe (Stilling Well) | 1 | Wave dampening |
 | Mounting Hardware | 1 | Installation |
-| Misc (wires, resistors, etc) | - | Connections 
+| Misc (wires, resistors, etc) | - | Connections |
 
 
 ## 💻 Software Setup
